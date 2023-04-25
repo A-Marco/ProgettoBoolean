@@ -1,0 +1,70 @@
+body {
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+
+/**contenitore nero opaco**/
+.contenitoreTOT {
+    width: 1000px;
+    margin: auto;
+    margin-top: 30px;
+    color: rgba(0,221,0,255); /**il colore verde fluo del logo**/
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+    padding: 5%;
+}
+
+/**Ridimensionamento del logo**/
+header  img {
+    width: 250px;
+    height: auto;
+}
+/**centro il logo, la scritta sotto il logo e i bottoni**/
+header, nav{
+    text-align: center;
+}   
+/**Barra verde dove alloggiano i pulsanti di navigazione**/
+nav {
+    background-color: rgba(0,221,0,255) ;
+    padding: 1%;
+}
+
+/**     SEZIONE MONOPATTINI DISPONIBILI   **/
+/**Caratteristiche del testo**/
+section {
+    color: white;
+    font-size: larger;
+}
+
+/**ho allineato h1 con checkbox - ho diminuito il margine di sotto di h1 renendolo di 3px**/
+section h1 {
+    display: inline-block;
+    margin-bottom: 3px;
+}
+
+/**Il simbolo della freccia prima dell'indirizzo*/
+section span::after {
+    content: '\21A6' ;
+}
+
+/**Da qui le 3 barre di stato di carica**/
+#barra1 {
+    background-color: rgba(245,180,83,255);
+    width: 40%;
+    height: 30px;
+    border-radius: 10px;
+}
+
+#barra2 {
+    background-color: rgba(30,195,30,255);
+    width: 60%;
+    height: 30px;
+    border-radius: 10px;
+}
+
+#barra3 {
+    background-color: rgba(190,65,65,255);
+    width: 20%;
+    height: 30px;
+    border-radius: 10px;
+}
